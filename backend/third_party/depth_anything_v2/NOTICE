@@ -1,0 +1,10 @@
+Depth Anything V2 model implementation
+
+Source: https://github.com/DepthAnything/Depth-Anything-V2
+Commit: a561b849ebae10a6f5ef49e26c83cbbcd36c71bf
+License: Apache License 2.0 (see UPSTREAM_LICENSE)
+
+These files are the official depth_anything_v2 package, including the
+DINOv2 encoder code it ships. Relief Forge does not use the upstream
+Gradio application. The checkpoint is downloaded separately and is not
+part of this package.

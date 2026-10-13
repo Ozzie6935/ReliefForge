@@ -1,0 +1,9 @@
+SAM 2 image segmentation
+
+Source: https://github.com/facebookresearch/sam2
+Commit: 2b90b9f5ceec907a1c18123530e92e794ad901a4
+License: Apache License 2.0 (see UPSTREAM_LICENSE)
+Checkpoint: facebook/sam2.1-hiera-tiny sam2.1_hiera_tiny.pt
+
+Relief Forge installs the official SAM-2 package and does not vendor a fork.
+The checkpoint is downloaded separately and is not part of this notice.

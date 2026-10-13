@@ -1,0 +1,35 @@
+---
+description: Deliver each milestone report in one fenced plain-text block
+alwaysApply: true
+---
+
+# Milestone report format
+
+At the end of every milestone, display the complete report directly in chat.
+
+## One block
+
+Put the entire report in one fenced plain-text code block. Use a `text` fence.
+
+- Start the block with the milestone line and title:
+
+  RELIEF FORGE — MILESTONE X.X.X
+  MILESTONE TITLE
+
+- Include every section (A, B, C, and so on) in that same block.
+- Keep SHA-256 hashes, measurements, comparisons, errors, and limitations in the block.
+- The whole report must be copyable with one copy action.
+
+## Do not
+
+- Do not use HTML `<details>` tags.
+- Do not write a separate Markdown report file.
+- Do not link to a report.
+- Do not use more than one code block.
+- Do not substitute a short summary for the full report.
+- Do not add text before or after the block unless there is a critical blocker.
+- Do not write or change anything under `projects/` to store or format the report.
+
+## Collapse
+
+The Cursor interface may collapse a long code block. This rule cannot set that collapse state. Do not claim the block was collapsed programmatically. Still output the complete report in the one block.
